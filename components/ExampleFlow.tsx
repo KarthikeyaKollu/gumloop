@@ -14,10 +14,44 @@ import Sidebar from "@/components/Sidebar";
 import AskAINode from "@/components/AskAINode";
 import { v4 as uuidv4 } from 'uuid';
 import Web from "@/components/tools/Web";
+import Test from "./tools/Test";
+import UsingAi from "./tools/UsingAi";
+import WebScraping from "./tools/WebScraping";
+import Youtube from "./tools/Youtube";
+import Calculator from "./tools/Calculator";
+import Time from "./tools/Time";
+import Weather from "./tools/Weather";
+import News from "./tools/News";
+import Firestore from "./tools/Firestore";
+import Telegram from "./tools/Telegram";
+import Gmail from "./tools/Gmail";
+import Linkedin from "./tools/Linkedin";
+
+import Linkedinprofile from "./tools/Linkedinprofile";
+import Webcrawler from "./tools/Webcrawler";
+import Fileoperation from "./tools/Fileoperation";
+
+
 
 const nodeTypes = {
   askAI: AskAINode,
-  web:Web
+  web:Web,
+  test:Test,
+  ai:UsingAi,
+  scraping:WebScraping,
+  youtube:Youtube,
+  calculator:Calculator,
+  time:Time,
+  weather:Weather,
+  news:News,
+  firestore:Firestore,
+  telegram:Telegram,
+  gmail:Gmail,
+  linkedin:Linkedin,
+  profile:Linkedinprofile,
+  crawler:Webcrawler,
+  file:Fileoperation,
+
 };
 
 const ExampleFlow = () => {
