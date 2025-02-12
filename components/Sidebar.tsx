@@ -30,6 +30,112 @@ const Sidebar = () => {
       >
        Web
       </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "test")}
+        draggable
+      >
+       Test
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "ai")}
+        draggable
+      >
+       UsingAi
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "scraping")}
+        draggable
+      >
+      Web Scraping
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "youtube")}
+        draggable
+      >
+     You Tube
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "calculator")}
+        draggable
+      >
+   Calculator
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "time")}
+        draggable
+      >
+      Time
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "weather")}
+        draggable
+      >
+      Weather
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "news")}
+        draggable
+      >
+      News
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "firestore")}
+        draggable
+      >
+      Firestore
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "telegram")}
+        draggable
+      >
+       Telegram
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "gmail")}
+        draggable
+      >
+     Gmail
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "linkedin")}
+        draggable
+      >
+  Linkedin
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "profile")}
+        draggable
+      >
+  Linkedin Profile
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "crawler")}
+        draggable
+      >
+  Website Crowler
+      </div>
+      <div
+        className="p-3 bg-green-500 rounded cursor-pointer text-center"
+        onDragStart={(event) => onDragStart(event, "file")}
+        draggable
+      >
+    File Operation
+      </div>
+      
     </aside>
   );
 };
